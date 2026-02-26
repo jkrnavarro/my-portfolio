@@ -474,6 +474,11 @@ var require_postcss_import = /* @__PURE__ */ __commonJSMin(((exports, module) =>
 }));
 
 //#endregion
-export default require_postcss_import();
+export default {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
+};
 
 export {  };
